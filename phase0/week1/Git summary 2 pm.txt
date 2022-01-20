@@ -1,0 +1,94 @@
+Microsoft Windows [Version 10.0.22000.434]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\yevaw>cd C:\Users\yevaw\hacktiv8\ftds\learning_journal
+
+C:\Users\yevaw\hacktiv8\ftds\learning_journal>git status
+On branch pinjaman
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        phase0/week1/.ipynb_checkpoints/
+        phase0/week1/day2pm.ipynb
+        phase0/week1/summary git.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\yevaw\hacktiv8\ftds\learning_journal>git add phase0/week1/day2pm.ipynb
+warning: LF will be replaced by CRLF in phase0/week1/day2pm.ipynb.
+The file will have its original line endings in your working directory
+
+C:\Users\yevaw\hacktiv8\ftds\learning_journal>git commit -m "Looping Lecture"
+[pinjaman 4f12560] Looping Lecture
+ 1 file changed, 533 insertions(+)
+ create mode 100644 phase0/week1/day2pm.ipynb
+
+C:\Users\yevaw\hacktiv8\ftds\learning_journal>git push
+fatal: The current branch pinjaman has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin pinjaman
+
+
+C:\Users\yevaw\hacktiv8\ftds\learning_journal>git branch
+  main
+* pinjaman
+
+C:\Users\yevaw\hacktiv8\ftds\learning_journal>git checkout main
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+C:\Users\yevaw\hacktiv8\ftds\learning_journal>git pull
+Updating 66b2fcf..6be38b6
+Fast-forward
+ phase0/week1/trial.py | 1 +
+ 1 file changed, 1 insertion(+)
+
+C:\Users\yevaw\hacktiv8\ftds\learning_journal>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        phase0/week1/.ipynb_checkpoints/
+        phase0/week1/summary git.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\yevaw\hacktiv8\ftds\learning_journal>git push
+Everything up-to-date
+
+C:\Users\yevaw\hacktiv8\ftds\learning_journal>git checkout pinjaman
+Switched to branch 'pinjaman'
+
+C:\Users\yevaw\hacktiv8\ftds\learning_journal>git push origin pinjaman
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 2.22 KiB | 2.22 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/YevaW/Learning-Journal.git
+   6bcd210..4f12560  pinjaman -> pinjaman
+
+C:\Users\yevaw\hacktiv8\ftds\learning_journal>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+C:\Users\yevaw\hacktiv8\ftds\learning_journal>git pull
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (1/1), 627 bytes | 12.00 KiB/s, done.
+From https://github.com/YevaW/Learning-Journal
+   6be38b6..96be53d  main       -> origin/main
+Updating 6be38b6..96be53d
+Fast-forward
+ phase0/week1/day2pm.ipynb | 533 ++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 533 insertions(+)
+ create mode 100644 phase0/week1/day2pm.ipynb
+
+C:\Users\yevaw\hacktiv8\ftds\learning_journal>cd c
+The system cannot find the path specified.
+
+C:\Users\yevaw\hacktiv8\ftds\learning_journal>
